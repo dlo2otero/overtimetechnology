@@ -14,7 +14,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
-            height: 100vh;
+            min-height: 100vh;
         }
         nav {
             width: 100%;
@@ -35,18 +35,37 @@
         h1 {
             font-size: 3rem;
             font-weight: bold;
-            margin-top: 20px;
+            margin-top: 40px; /* Added more space */
         }
         p {
             font-size: 1.5rem;
             text-align: center;
             max-width: 800px;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        /* Footer section */
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+        footer a {
+            color: #add8e6;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <nav>
         <a href="https://dlo2otero.github.io/overtimetechnology/Services/">Our Services</a>
+        <a href="biography.html">Biography</a> <!-- New biography link -->
     </nav>
 
     <h1>Overtime Technology</h1>
@@ -56,5 +75,11 @@
         the best support for your budget. From network management to cybersecurity, Overtime Technology 
         delivers reliable IT support so you can focus on what matters most – growing your business.
     </p>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Overtime Technology</p>
+        <p><a href="https://dlo2otero.github.io/overtimetechnology/Contact/">Contact Us</a></p>
+    </footer>
 </body>
 </html>
